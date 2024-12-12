@@ -1,0 +1,13 @@
+train: C:/Users/UNS_CT/Desktop/CPE Kmutt Term1/Term1_1-67/CPE101/Final project/Traffic Anomalies.v7i.yolov8/train/images
+val: C:/Users/UNS_CT/Desktop/CPE Kmutt Term1/Term1_1-67/CPE101/Final project/Traffic Anomalies.v7i.yolov8/train/images
+test: C:/Users/UNS_CT/Desktop/CPE Kmutt Term1/Term1_1-67/CPE101/Final project/Traffic Anomalies.v7i.yolov8/train/images
+
+nc: 2
+names: ['human', 'motorbike']
+
+roboflow:
+  workspace: motorbike-overload
+  project: traffic-anomalies
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/motorbike-overload/traffic-anomalies/dataset/7
